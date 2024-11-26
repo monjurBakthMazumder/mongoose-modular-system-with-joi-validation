@@ -93,5 +93,5 @@ npm i ts-node-dev --save-dev
 add joi validator
 --------------------------------
 1. npm i joi
-2. student.controller.ts >
-    * const Joi = require('joi');
+2. create joi schema
+3. import Joi from 'joi'in student.controller.ts 

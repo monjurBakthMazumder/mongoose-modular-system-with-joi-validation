@@ -5,7 +5,6 @@ const userNameSchema = new Schema({
     type: String,
     required: [true, "First name is required and cannot be empty"],
     trim: true,
-    maxlength: [20, 'First name cannot be more than 20 characters'],
   },
   middleName: {
     type: String,
@@ -15,7 +14,6 @@ const userNameSchema = new Schema({
     type: String,
     required: [true, "Last name is required and cannot be empty"],
     trim: true,
-    maxlength: [20, 'Last name cannot be more than 20 characters'],
   },
 });
 
